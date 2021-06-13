@@ -1,0 +1,38 @@
+{
+    "selec-idoma":"Català",
+    "navbar-inici":"Inici",
+    "castella":"Castellà",
+    "catala":"Català",
+    "ingles":"Anglès",
+    "input-restaurant":"Nom Restaurant",
+    "select-especialitat":"Especialitat",
+    "inici-sesio":"Inici Sessió",
+    "tanca-sesio":"Tanca Sessió",
+    "select-localitat":"Localitat",
+    "select-select":"Selecciona",
+    "boto-borrar":"Borrar",
+    "card-no-resultat":"No s'han trobat restaurants amb aquests criteris",
+    "footer-portal-restaurants":"Portal Restaurants",
+    "footer-consulta-reserva":"Consulta reserva",
+    "footer-edita-perfil":"Edita perfil",
+    "footer-edita-cartes":"Edita cartes",
+    "footer-portal-clients":"Portal Clients",
+    "footer-cerca-restaurants":"Cerca restaurants",
+    "contact-nom":"Nom",
+    "contact-email":"Correu electrònic",
+    "contact-missatge":"Missatge",
+    "contact-envia":"Enviar",
+    "contact":"Contacte",
+    "pdf":"Descarregar PDF",
+    "password":"Contrasenya",
+    "repeat-password":"Repeteix contrasenya",
+    "telefon":"Telèfon",
+    "llinatge":"Llinatge",
+    "registre":"Registre",
+    "no-registre":"No ha estat posible el registre, recordi omplir tots els camps.",
+    "no-password":"Les contrasenyes no son iguals"
+    
+
+    
+    
+}

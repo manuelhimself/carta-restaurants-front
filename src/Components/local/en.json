@@ -1,0 +1,37 @@
+{
+    "selec-idoma":"English",
+    "navbar-inici":"Home",
+    "castella":"Spanish",
+    "catala":"Catalan",
+    "ingles":"English",
+    "input-restaurant":"Name Restaurant",
+    "select-especialitat":"Speciality",
+    "inici-sesio":"Log in",
+    "tanca-sesio":"Log out",
+    "select-localitat":"Location",
+    "select-select":"Select",
+    "boto-borrar":"Delete",
+    "card-no-resultat":"There are not restaurants with this search",
+    "footer-portal-restaurants":"Portal Restaurants",
+    "footer-consulta-reserva":"Reservation consultation",
+    "footer-edita-perfil":"Edit profile",
+    "footer-edita-cartes":"Edit letters",
+    "footer-portal-clients":"Customer Portal",
+    "footer-cerca-restaurants":"Search for restaurants",
+    "contact-nom":"Name",
+    "contact-email":"Email address",
+    "contact-missatge":"Message",
+    "contact-envia":"Submit",
+    "contact":"Contact",
+    "pdf":"Download PDF",
+    "password":"Password",
+    "repeat-password":"Repeat password",
+    "telefon":"Phone",
+    "llinatge":"Surname",
+    "registre":"Sign up",
+    "no-registre":"Registration has not been possible, remember to fill in all the fields.",
+    "no-password":"Passwords are not the same"
+    
+    
+    
+}

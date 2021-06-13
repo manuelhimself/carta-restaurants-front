@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+:root{
+  --sidebar-flex:1.5;
+  --condiv-flex:6;
+  --fontsize-p:1.2rem;
+  --fontsize-nav:1.6rem;
+  --typing-font:3rem;
+}
+ #contenidorPrincipal{
+    margin-top: 2%;
+ }
+* {
+  margin:0;
+  padding: 0;
+}
+
+#filtre{
+  text-align: center;
+}
+body{
+  background-color:#eaeff1 ;
+}
+
+#boto-borrar{
+
+
+  margin: 0%;
+  
+}
+.navbar{
+  background-color: #f4f4f6;
+  background-repeat: no-repeat;
+  height: 100px;
+  
+}
+nav ul{
+  font-size:x-large ;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: white !important;
+  font-family: 'Niconne';
+}
+
+nav-link{
+  color: #76797c;
+  font-family: 'Niconne';
+	font-size: x-large;
+}
+.nav-link:hover{
+  color: #76797c !important;
+}
+
+#contact{
+  border-radius: 0.5cm;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+  background-color:  #84878a ;
+  color: white;
+  height: 100%;
+  
+}
+
+.card{
+  background-color:  #84878a ;
+  color: white;
+  height: 100%;
+}
+.filaCards .col-md-4{
+  padding-top: 2%;
+}
+
+footer {
+    background-image:linear-gradient(#bfbfbf,#999 50%,#8f8f8f);
+    background-repeat: no-repeat;
+    color: white;
+  }
+  
+  .links ul {
+    list-style-type: none;
+  }
+  .links li a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .links li a :hover {
+    text-decoration: none;
+    
+  }
+  
+  .location i {
+    font-size: 18px;
+  }
+  
+  .copyright p {
+    border-top: 1px solid grey;
+  }
+
+a {
+  text-decoration: none;
+  color:#76797c;
+}
+p{
+  font-size: 16px;
+}
+.btn{
+  background-color: #94BFBE;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  color: #ffffff !important;
+}
+
+#borrar{
+  margin: 35px;
+  width: 15%;
+  height: 50%;
+}
+label{
+    font-size: var(--fontsize-p);
+}
+
+h1,h2,h3,h4,p{
+  margin: 10px;
+
+}
+
+
+nav ul  {
+    display: flex;
+}
+  
+nav ul li {
+    margin: 10px;
+}
+
+
+.leaflet-container {
+  margin-top: 2%;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.pfp{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#contenidor {
+  background-color: #84878a;
+  border-radius: 0.5cm;
+}
+
+#contenidorSecundari {
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top:5%;
+}
+
+#contenidorPrincipal {
+  margin-top: -3%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url(./img/fondo.jpg);
+}
+
+.botons .btn:nth-child(2){
+  margin-left: 2%;
+}
+
+#inici{
+  margin-left: 2%;
+}
+
+.navbar-collapse{
+  background-color: #f4f4f6;
+}
+
+@media(max-width:768px){
+  #contenidorCards{
+    margin-top: 3%;
+  }
+}
+#contenidorPrincipal2{
+  margin-top: -3%;
+  background-image: url(./img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#contenidorSecundari2{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 5%;
+}
+
+span{
+  color: red;
+}
+/* ------------------------------------- MANU ------------------------------*/
+
+/*.leaflet-container {
+	height: 400px;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	border-radius: 20px;
+}*/
+
+.realBtn {
+	background-color: #94bfbe;
+	color: white !important;
+}
+
+.realBtn :hover {
+	transition: 0.5s;
+	background-color: #94bfbe;
+}
+
+.btn-link {
+	color: #94bfbe;
+}
+
+#edita-nom {
+	margin-left: 10px;
+}
+
+#perfilContainer {
+	margin-top: 60px;
+}
+
+#perfilCard {
+	margin-top: 15px;
+}
+
+.establiment-title-div {
+	margin-top: 30px;
+}
+
+.establiment-description-div {
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.action {
+	margin-top: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+#images {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.row {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.image-upload {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.image-upload img {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	max-width: 100%;
+}
+
+#bigPic,
+#smallPics {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+#bigPic {
+	margin-bottom: 5px;
+}
+
+label {
+	margin-bottom: 0px;
+}
+
+.card {
+	/* posat per editarCarta i editarPlats */
+	color: #ffffff;
+	background-color: #84878a;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.btn {
+	/* posat per editarCarta i editarPlats */
+	background-color: #94bfbe;
+	color: #ffffff;
+	border: none;
+	border-radius: 10px;
+}
+
+a {
+	/* posat per editarCarta i editarPlats */
+	color: #ffffff;
+}
+
+button:hover {
+	/* posat per editarCarta i editarPlats */
+	color: #ffffff !important;
+}
+
+a:hover {
+	/* posat per editarCarta i editarPlats */
+	color: #ffffff !important;
+}
+
+.btn-link.btn {
+	background-color: #84878a;
+	color: #94bfbe;
+}
+
+.btn-link.btn:hover {
+	background-color: #84878a;
+	color: #94bfbe !important;
+	text-decoration: none;
+}
+
+.btn-link.btn:focus {
+	text-decoration: none;
+}
+
+.imgTopEsquerreRodona {
+	border-top-left-radius: 20px;
+}
+
+.imgBottomEsquerreRodona {
+	border-bottom-left-radius: 20px;
+}
+
+@media (max-width: 767px) {
+	#bigPic div form label img {
+		border-top-right-radius: 20px;
+	}
+}
